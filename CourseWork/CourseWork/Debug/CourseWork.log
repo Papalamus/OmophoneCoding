@@ -1,0 +1,21 @@
+﻿Build started 23.06.2014 0:52:00.
+     1>Project "C:\Для дела\Проекты\epam_training\Training\CourseWork\CourseWork\CourseWork\CourseWork.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Для дела\Visual Studio\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Yu"stdafx.h" /Fp"Debug\CourseWork.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib CourseWork.cpp
+         CourseWork.cpp
+     1>CourseWork.cpp(66): warning C4018: '<' : signed/unsigned mismatch
+     1>CourseWork.cpp(159): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Для дела\Visual Studio\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>CourseWork.cpp(182): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Для дела\Visual Studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Для дела\Проекты\epam_training\Training\CourseWork\CourseWork\Debug\CourseWork.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Для дела\Проекты\epam_training\Training\CourseWork\CourseWork\Debug\CourseWork.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         Debug\AssemblyInfo.obj
+         Debug\CourseWork.obj
+         Debug\stdafx.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         CourseWork.vcxproj -> C:\Для дела\Проекты\epam_training\Training\CourseWork\CourseWork\Debug\CourseWork.exe
+     1>Done Building Project "C:\Для дела\Проекты\epam_training\Training\CourseWork\CourseWork\CourseWork\CourseWork.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.78
